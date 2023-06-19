@@ -5,3 +5,4 @@ The main principle of operation of the robot is to use an ultrasonic sensor, whi
 
 ![image](https://github.com/MONIJESU1/Obstacle-avoiding-robot-based-on-Rapberry-pi-zero-w/assets/91800002/a4fc1506-4988-4264-962e-f18b0524ec67)
 
+Detailed explanation on medium:
