@@ -82,7 +82,7 @@ try:
        servo(7.5) #Setting the angle of rotation of the servo
         time.sleep(.5)
         middledistance = ultrasonic() 
-       if middledistance <= 30: #If the distance to the obstacle is less than 30 cm
+       if middledistance <= 30: #If the distance to the obstacle is less than or equal to 30 cm
             stop()
             time.sleep(.5)
             servo(sLeft)
@@ -112,7 +112,7 @@ try:
                 front()
         else:
             front()
-except KeyboardInterrupt: #When pressing Ctrl+C
+except KeyboardInterrupt: #Ctrl+C
     print("That's all!")
 finally:
  GPIO. cleanup() #Clearing pins
